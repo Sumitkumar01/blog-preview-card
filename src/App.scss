@@ -1,0 +1,25 @@
+// ## Colors
+
+// ### Primary
+
+$Yellow: hsl(47, 88%, 63%);
+// ### Neutral
+
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+
+body {
+    background-color: $Yellow;
+    font-size: 1rem;
+}
+
+
+.card {
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    background-color: $White;
+    padding: 1rem;
+    box-shadow: 10px 10px;
+}
