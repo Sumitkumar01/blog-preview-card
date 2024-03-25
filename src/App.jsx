@@ -6,6 +6,7 @@ import img1 from "./assets/image-avatar.webp";
 function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-3">
+      <h1 className="sr-only">blog-card</h1>
       <div className="card  flex flex-col gap-3 border border-black">
         <div className="w-full">
           <div className="w-full rounded-[15px] overflow-hidden">
@@ -13,7 +14,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-col gap-3 py-3">
-          <span className="bg-yellow-500 font-semibold w-max px-2 rounded-md flex items-center justify-center py-1">
+          <span className="bg-yellow-500 font-extrabold w-max px-2 rounded-md flex items-center justify-center py-1">
             Learning
           </span>
 
