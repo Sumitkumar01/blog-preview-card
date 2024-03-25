@@ -23,7 +23,7 @@ function App() {
 
           <a
             href="https://www.frontendmentor.io/learning-paths"
-            className="font-bold text-2xl hover:text-yellow-400 active:text-yellow-400"
+            className="font-extrabold md:text-2xl text-xl hover:text-yellow-400 active:text-yellow-400"
           >
             HTML & CSS foundations
           </a>
