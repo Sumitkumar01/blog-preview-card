@@ -5,7 +5,7 @@ import img1 from "./assets/image-avatar.webp";
 
 function App() {
   return (
-    <div className="grid place-content-center h-screen gap-3">
+    <div className="flex flex-col items-center justify-center h-screen gap-3">
       <div className="card  flex flex-col gap-3 border border-black">
         <div className="w-full">
           <div className="w-full rounded-[15px] overflow-hidden">
@@ -42,13 +42,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="text-center">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a href="#" className="capitalize">
+        <a href="https://www.frontendmentor.io/profile/Sumitkumar01" className="capitalize">
           sumit kumar
         </a>
         .
